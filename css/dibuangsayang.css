@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+.nav-container{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-container {
+    background: #F2F2F2;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 692px;
+    display: flex;
+    align-items: center;
+}
+.nav-btn-container .Bagfill-btn {
+    position: absolute;
+    width: 30.56px;
+    height: 30px;
+    left: 1199px;
+    top: 19px;
+
+}
+.nav-btn-container .accountcircle-btn{
+    position: absolute;
+    width: 30.56px;
+    height: 30px;
+    left: 1253px;
+    top: 19px;
+}
+.nav-btn-container .Vector-btn{
+    position: absolute;
+    width: 30.56px;
+    height: 30px;
+    left: 1307px;
+    top: 19px;
+}
+nav ul {
+    position: absolute;
+    width: 213px;
+    height: 37px;
+    left: 25px;
+    top: 22px;
+}
+nav .logo{
+    position: absolute;
+    left: 16.25%;
+    right: 81.43%;
+    top: 2.86%;
+    bottom: 92.97%;
+}
+.nav-items li{
+    position: absolute;
+    width: 213px;
+    height: 37px;
+    left: 25px;
+    top: 22px;
+} 
+.search-box{
+    position: absolute;
+    width: 414px;
+    height: 30px;
+    left: 476px;
+    top: 24px;
+}
+header{
+    position: absolute;
+    width: 466px;
+    height: 150px;
+    left: 207px;
+    top: 272px;
+}
+header h1{
+    position: absolute;
+    width: 466px;
+    height: 54px;
+    left: 207px;
+    top: 272px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+header p {
+    position: absolute;
+    width: 442px;
+    height: 82px;
+    left: 209px;
+    top: 340px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+header .hero-image{
+    position: absolute;
+width: 525.48px;
+height: 349.98px;
+left: 727px;
+top: 5px;
+}
