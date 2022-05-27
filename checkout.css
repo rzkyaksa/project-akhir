@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.search-box {
+    position: absolute;
+    width: 414px;
+    height: 30px;
+    left: 476px;
+    top: 24px;
+
+}
+
+.search-box a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.search-box input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 0px;
+    margin-right: 25px;
+    font-size: 17px;
+    background: #F2EFEF;
+    border-radius: 25px;
+    width: 414px;
+    height: 30px;
+}
+
+.nav-container {
+    background: #FFFFFF;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+}
+
+.nav-btn-container .Bagfill-btn {
+    position: absolute;
+    width: 30.56px;
+    height: 30px;
+    left: 1199px;
+    top: 5px;
+
+}
+
+.nav-btn-container .accountcircle-btn {
+    position: absolute;
+    width: 30.56px;
+    height: 30px;
+    left: 1253px;
+    top: 5px;
+}
+
+.nav-btn-container .Vector-btn {
+    position: absolute;
+    width: 30.56px;
+    height: 30px;
+    left: 1307px;
+    top: 5px;
+}
+
+.nav-btn-container .Search-btn {
+    position: absolute;
+    width: 30.56px;
+    height: 30px;
+    left: 770px;
+    top: 5px;
+}
+
+nav ul {
+    position: absolute;
+    width: 213px;
+    height: 37px;
+    left: 25px;
+    top: 22px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+nav .logo {
+    position: absolute;
+    left: 20.25%;
+    right: 85%;
+    top: 2.86%;
+    bottom: 9%;
+}
+
+.nav-items li {
+    position: absolute;
+    width: 213px;
+    height: 37px;
+    left: 25px;
+    top: 0px;
+}
+
+.header-container {
+    position: absolute;
+    width: 1500px;
+    height: 900px;
+
+    top: 76px;
+    background: #F2F2F2;
+}
+
+header h1 {
+    position: absolute;
+    width: 213px;
+    height: 37px;
+    left: 115px;
+    top: 118px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 51px;
+
+    color: #000000;
+}
+
+.bg-container {
+    position: absolute;
+    width: 727px;
+    height: 563px;
+    left: 66px;
+    top: 167px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+}
+
+.bg-container .Alamat {
+    position: absolute;
+    width: 161px;
+    height: 23px;
+    left: 30px;
+    top: 20px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.bg-container .Alamat2 {
+    position: absolute;
+    width: 657px;
+    height: 133px;
+    left: 30px;
+    top: 60px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.bg-container .edit {
+    position: absolute;
+    width: 31px;
+    height: 23px;
+    left: 670px;
+    top: 150px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #2476F1;
+}
+
+
+
+header .hero-image {
+    position: absolute;
+    width: 197px;
+    height: 131px;
+    left: 91px;
+    top: 356px;
+
+    background: url(fococlipping-20220221-185758.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hero-isi .NamaBarang {
+    position: absolute;
+    width: 96px;
+    height: 72px;
+    left: 302px;
+    top: 363px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.hero-isi .JumlahBarang {
+    position: absolute;
+    width: 96px;
+    height: 72px;
+    left: 302px;
+    top: 393px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.hero-isi .HargaBarang {
+    position: absolute;
+    width: 96px;
+    height: 72px;
+    left: 302px;
+    top: 423px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.header-rincian {
+    position: absolute;
+    width: 441px;
+    height: 276px;
+    left: 906px;
+    top: 243px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+
+.rincian-isi .judul {
+    position: absolute;
+    width: 399px;
+    height: 32px;
+    left: 30px;
+    top: 30px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.rincian-isi .Total {
+    position: absolute;
+    width: 399px;
+    height: 32px;
+    left: 30px;
+    top: 65px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.rincian-isi .Harga {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    left: 350px;
+    top: 65px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.kotak {
+    position: absolute;
+    width: 378px;
+    height: 37px;
+    left: 30px;
+    top: 220px;
+
+    background: #26252A;
+    border-radius: 15px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.kotak .pembayaran {
+    position: absolute;
+    width: 157px;
+    height: 17px;
+    left: 120px;
+    top: 10px;
+
+    font-family: 'Rokkitt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #F2F2F2;
+}
+
+.garis {
+    position: absolute;
+    width: 677px;
+    height: 0px;
+    left: 84px;
+    top: 219px;
+
+    border: 0.3px solid #000000;
+}
+
+.line {
+    position: absolute;
+    width: 677px;
+    height: 0px;
+    left: 84px;
+    top: 339px;
+
+    border: 0.3px solid #000000;
+}
