@@ -20,3 +20,44 @@
     height: 30px;
 
 }
+
+.search-box {
+    position: absolute;
+    width: 414px;
+    height: 30px;
+    left: 476px;
+    top: 14px;
+
+}
+
+.search-box a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.search-box input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 0px;
+    margin-right: 25px;
+    font-size: 17px;
+    background: #F2EFEF;
+    border-radius: 25px;
+    width: 414px;
+    height: 30px;
+}
+
+.nav-btn-container .Search-btn {
+    position: absolute;
+    width: 30.56px;
+    height: 30px;
+    left: 350px;
+    top: 1px;
+}
