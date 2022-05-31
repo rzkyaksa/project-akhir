@@ -369,3 +369,11 @@ header .hero-image {
 
     border: 0.3px solid #000000;
 }
+
+.hero-isi .delete {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 734px;
+    top: 384px;
+}
